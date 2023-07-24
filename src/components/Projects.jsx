@@ -27,7 +27,7 @@ const Projects = () => {
                     <div className='flex flex-col'>
                         <p className='text-3xl font-semibold py-2 mb-2'> {title} </p>
                         <p className=' px-5 py-2 '> {projectdescription} </p>
-                        <a href={link} target='_blank' className='py-2 inline hover:underline underline-offset-2'> View Project </a>
+                        <a href={link} target='_blank' rel='noreferrer' className='py-2 inline hover:underline underline-offset-2'> View Project </a>
                     </div>
                 </div>
             ))}
